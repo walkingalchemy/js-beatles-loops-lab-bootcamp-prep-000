@@ -23,4 +23,5 @@ function iLoveTheBeatles(n) {
     iLove.push("I love the Beatles!")
     i++
   } while (i < n-1)
+  return iLove
 }
