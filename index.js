@@ -7,11 +7,20 @@ function theBeatlesPlay(musicians, instruments) {
 }
 
 function johnLennonFacts(facts) {
-  let countdown = facts.length -1
+  let countdown = facts.length - 1
   var jLFacts = []
   while (countdown >= 0) {
     jLFacts.unshift(`${facts[countdown]}!!!`)
     --countdown
   }
   return jLFacts
+}
+
+function iLoveTheBeatles(n) {
+  var iLove = []
+  let i = 0
+  do {
+    iLove.push("I love the Beatles!")
+    i++    
+  } while (i < n-1)
 }
