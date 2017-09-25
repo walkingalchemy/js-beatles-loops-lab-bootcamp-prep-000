@@ -9,7 +9,7 @@ function theBeatlesPlay(musicians, instruments) {
 function johnLennonFacts(facts) {
   let countdown = facts.length -1
   var jLFacts = []
-  while (countdown > 0) {
+  while (countdown >= 0) {
     jLFacts.unshift(`${facts[countdown]}!!!`)
     --countdown
   }
