@@ -11,6 +11,7 @@ function johnLennonFacts(facts) {
   var jLFacts = []
   while (countdown > 0) {
     jLFacts.unshift(`${facts[countdown]}!!!`)
+    --countdown
   }
   return jLFacts
 }
